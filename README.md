@@ -8,7 +8,8 @@ Soy un jugador de CTFs (Capture The Flag ó Captura la bandera para los amigos h
 
 ### Solución
 
-La idea principal para solucionar el problema es crear una aplicación web que busque y se actualize de los cves pertinentes de forma que tenga disponible la información actualizada sin preocupaciones. Que se pueda obtener a partir de poca información que se dispone.
+La idea principal para solucionar el problema es crear una aplicación web que ofrezca los cves pertinentes de forma que tenga disponible la información actualizada sin preocupaciones. Para ello es necesario rescatar la información de los cves, procesarla para extraer la información importante y luego servirla al usuario. A partir de la entrada de los pocos datos de los que se dispone.
+
 
 
 
