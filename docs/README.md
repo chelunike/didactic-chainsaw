@@ -15,14 +15,14 @@ En medio de un CTF, cuando se intenta de forma ágil resolver un problema plante
 
 ### Milestone
 
-2. [MI001] Modelo del Problema
+2. [MI0] Modelo del Problema
 
 A partir de los datos de entrada que nos aportan del sistema. Llegar a obtener información en claro de los CVEs pertinentes, lo cual requiere extraer la información, procesarla y mostrarla de forma clara al usuario.
 La respuesta deberá contener tanto el codigo que identifica el CVE, nombre/titulo que casi siempre resume por completo el modo en que se aprovecha la vulnerabilidad y un enlace a la descripción y al propio exploit. 
 
 :cat2: 
 
-2. [MI002] Logica de Negocio
+2. [MI1] Logica de Negocio
 
 La idea principal abstrayendose del funcionamiento del programa es que recibe la entrada de datos que referencia a un SO y genera una respuesta una serie de información respecto a los CVEs pertienentes.
 El programa en si mismo buscara los CVES de forma externa, procesara la información y luego presentara los resultados al usuario.
