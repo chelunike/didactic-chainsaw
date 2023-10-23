@@ -15,6 +15,13 @@ Problema: procesar la info de los cves
 
 En medio de un CTF, cuando se intenta de forma ágil resolver un problema planteado, solo que de este problema solo hay ciertas pistas y tienes que buscar una flag. En el momento en el que se requiere de saber que posibles vulnerabilidades se puedan usar a nuestro favor. Es necesario un sistema que nos indique a partir de la información conocida del sistema que vulnerabilidad puede existir y como explotarla. Es un gran problema el tener que procesar de forma manual tanta información a la vez.
 
+Descripción de los elementos del problema:
+- **Retos CTF**: Consisten en buscar un texto con un formato, como por ejemplo ```flag{...}``` y pueden ser de distintos tipos o ámbitos como criptografia, ingenieria inversa, web y pwn, estos ultimos son para los que necesitamos la aplicación pues son en los que hay que acceder a algun sitema aprovechando alguna vulnerabilidad en el codigo. Y por lo general te suelen  dejar alguna pista de cual es el sistema con una dirección ip y un puerto al cual tienes que acceder.
+
+- **CVE**(Common Vulnerabilities and Exposures): Es la forma en la que hoy en dia se exponen los fallos de seguridad que van descubriendose a lo largo del tiempo con la intención de conocerlos para poder solucionarlos.
+Suelen disponer de un codigo de referencia como por ejemplo ```CVE-2021-4034``` donde el digito de en medio te indica el año de salida. Además de incluir información acerca del autor, una breve descrpción y algunos enlaces de referencia, normalmente a github.com con código para demostraciones y como solcionarlo.
+ 
+
 ### Milestone
 
 2. [MI0] Modelo del Problema
