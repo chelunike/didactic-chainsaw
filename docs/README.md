@@ -32,11 +32,11 @@ Viable si el product manager acepta la estructura al cumplir los requisitos.
 
 :cat2: 
 
-2. [MI1] Recepción de CVEs
+2. [MI1] Extracción de la información de los CVEs
 
-El principal objetivo en esta etapa es poder conseguir todos los CVEs posibles, de multiples ubicaciones, de manera actualizada para procesar la información y mantenerla almacenada de forma estandar
+El principal objetivo en esta etapa es poder conseguir todos los CVEs posibles, de multiples ubicaiones, de manera actualizada para procesar toda esa información y extraer los datos necesarios para trabajar con ellos.
 PMV: API o Web Scrapper que sea capaz de recabar todos los datos de los CVEs actuales y antiguos.
-Viable si aprueba todos los tests.
+Viable si aprueba todos los tests y extraer la infomación de forma correcta.
 
 :cat2: :cat2: 
 
