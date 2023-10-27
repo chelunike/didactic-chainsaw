@@ -28,12 +28,15 @@ Suelen disponer de un codigo de referencia como por ejemplo ```CVE-2021-4034``` 
 
 A partir del problema planteado en las historias de usuario con este hito se intentará pasar el modelo del problema a código. Identificando cada elemento necesario para solventar el problema.
 PMV: Estructura de datos para almacenar los CVES de forma que sea accesible de forma rápida y luego se puedan realizar búsquedas de manera eficiente.
+Viable si el product manager acepta la estructura al cumplir los requisitos.
+
 :cat2: 
 
 2. [MI1] Recepción de CVEs
 
 El principal objetivo en esta etapa es poder conseguir todos los CVEs posibles, de multiples ubicaciones, de manera actualizada para procesar la información y mantenerla almacenada de forma estandar
 PMV: API o Web Scrapper que sea capaz de recabar todos los datos de los CVEs actuales y antiguos.
+Viable si aprueba todos los tests.
 
 :cat2: :cat2: 
 
@@ -41,5 +44,6 @@ PMV: API o Web Scrapper que sea capaz de recabar todos los datos de los CVEs act
 
 El objetivo es conseguir un sistema de búsqueda de forma que se presente al usuario unos resultados ordenados en función de la probabilidad que tiene el cve de funcionar a partir de las características aportadas.
 PMV: Sistema de busqueda con interfaz que sea capaz de obtener la información requerida.
+Viable si aprueba todos los tests.
 
 :cat2: :cat2: :cat2:
