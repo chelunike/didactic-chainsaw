@@ -22,7 +22,7 @@ Descripción de los elementos del problema:
 Suelen disponer de un codigo de referencia como por ejemplo ```CVE-2021-4034``` donde el digito de en medio te indica el año de salida. Además de incluir información acerca del autor, una breve descrpción y algunos enlaces de referencia, normalmente a github.com con código para demostraciones y como solcionarlo.
  
 
-### Milestone
+### Milestones
 
 2. [MI0] Modelo del Problema
 
