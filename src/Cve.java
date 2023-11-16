@@ -12,6 +12,20 @@ public class Cve {
     private String referencias;
 
     /**
+     * Constructor de la clase Cve.
+     * @param codigoReferencia el código de referencia del CVE.
+     * @param autor el autor del CVE.
+     * @param descripcion la descripción del CVE.
+     * @param referencias las referencias del CVE.
+     */
+    public Cve(String codigoReferencia, String autor, String descripcion, String referencias) {
+        this.codigoReferencia = codigoReferencia;
+        this.autor = autor;
+        this.descripcion = descripcion;
+        this.referencias = referencias;
+    }
+
+    /**
      * Devuelve el código de referencia del CVE.
      * @return el código de referencia del CVE.
      */
