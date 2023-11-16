@@ -15,6 +15,22 @@ public class Reto {
     private String flag;
 
     /**
+     * Constructor de la clase Reto.
+     * @param ip la dirección IP del reto.
+     * @param puerto el puerto del reto.
+     * @param so el sistema operativo del reto.
+     * @param version la versión del reto.
+     * @param flag la flag del reto.
+     */
+    public Reto(String ip, int puerto, String so, String version, String flag) {
+        this.ip = ip;
+        this.puerto = puerto;
+        this.so = so;
+        this.version = version;
+        this.flag = flag;
+    }
+
+    /**
      * Devuelve la dirección IP del reto.
      * @return la dirección IP del reto.
      */
