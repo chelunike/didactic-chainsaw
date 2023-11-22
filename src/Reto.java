@@ -29,4 +29,13 @@ public class Reto {
         this.version = version;
         this.flag = flag;
     }
+
+    /**
+     * Método que, dada la información de un reto, devuelve el CVE o CVEs que son aplicables a dicho reto.
+     * @return el CVE o CVEs que son aplicables a dicho reto.
+     */
+    public Vector<CVE> BuscadorCves() {
+        // TODO - implement Reto.BuscadorCves
+        throw new UnsupportedOperationException();
+    }
 }
