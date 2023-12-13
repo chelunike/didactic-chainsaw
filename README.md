@@ -12,6 +12,13 @@ La idea principal para solucionar el problema es crear una aplicación web que o
 
 
 
+## Instrucciones de ejecución
 
+- WIP: Instrucciones de instalación de Java y Gradle
 
+- Comprobación inicial del código
+`./gradlew check`
+
+- Compilar
+`./gradle build`
 
