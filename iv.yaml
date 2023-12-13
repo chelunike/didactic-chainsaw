@@ -1,2 +1,5 @@
 lenguaje: Java
 entidad: src/Reto.java
+automatizar:
+  fichero: gradlew
+  orden: ./gradlew
