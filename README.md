@@ -20,5 +20,5 @@ La idea principal para solucionar el problema es crear una aplicación web que o
 `./gradlew check`
 
 - Compilar
-`./gradle build`
+`./gradlew build`
 
