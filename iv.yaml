@@ -1,5 +1,5 @@
 lenguaje: Java
-entidad: src/main/java/com/didactic/chainsaw/Reto.java
+entidad: src/main/java/com/didactic/chainsaw/reto.java
 automatizar:
   fichero: gradlew
   orden: ./gradlew
