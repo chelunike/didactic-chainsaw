@@ -1,7 +1,7 @@
 # Criterios de decisión
 
 1. Que sea rápido a la hora de de descargas las dependencias.
-2. Cumpla con el estandard de paquetes de Java.
+2. Cumpla con el standard de paquetes de Java.
 
 
 # Posibles Opciones
@@ -10,10 +10,10 @@
 Gestiona las dependencias a partir de repositorios, teniendo el propio central, pero pudiendo usar otros que deberían mantener la especificación. 
 
 #### Ivy
-Proviene del proyecto de `Apache Ant` y promete ser un gestor aguil y simple de usar, se basa en el repositorio de Maven a la hora de descargar paquetes.
+Proviene del proyecto de `Apache Ant` y promete ser un gestor ágil y simple de usar, se basa en el repositorio de Maven a la hora de descargar paquetes.
 
 ### Gradle
-Es toolkit completo que también gestiona las tareas. Usa maven para las dependencias.
+Es toolkit completo que también gestiona las tareas. Usa Maven para las dependencias.
 
 ### Nuts
 Gestiona las dependencias en tiempo de ejecución y trabaja con los repositorios de Maven.
@@ -22,7 +22,6 @@ Gestiona las dependencias en tiempo de ejecución y trabaja con los repositorios
 Había más opciones disponibles, pero han caído con el paso del tiempo :(
 - JPM4J (Just another package manager) Que era otro gestor de dependencias ya no existe
 - Java Painless
-
 
 
 # Decisión Final: 
