@@ -1,2 +1,5 @@
 lenguaje: Java
-entidad: src/Reto.java
+entidad: src/reto.java
+automatizar:
+  fichero: build.gradle
+  orden: ./gradlew

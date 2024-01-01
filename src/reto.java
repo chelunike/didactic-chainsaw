@@ -1,4 +1,3 @@
-
 /**
  * Clase que representa un objeto reto con dirección IP, puerto, sistema operativo, versión y flag.
  * La dirección IP almacena la dirección de la máquina objetivo donde debemos acceder.
@@ -34,7 +33,7 @@ public class Reto {
      * Método que, dada la información de un reto, devuelve el CVE o CVEs que son aplicables a dicho reto.
      * @return el CVE o CVEs que son aplicables a dicho reto.
      */
-    public Vector<CVE> BuscadorCves() {
+    public Vector<Cve> BuscadorCves() {
         // TODO - implement Reto.BuscadorCves
         throw new UnsupportedOperationException();
     }
