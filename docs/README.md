@@ -8,42 +8,48 @@
 Label: user-stories
 Milestone: 0
 
-Cliente: yo :)
-Soy un estudiante de Ingeniería Informática al cual le gusta participar en competiciones de Captura la Bandera (CTF), este tipo de competiciones trata de conseguir encontrar una bandera (un pequeño texto con cierto formato) que se encuentra oculto, cifrado o simplemente en un sistema al cual no tenemos permisos.
+A la hora de particpiar en una competición de Captura la Bandera (CTF), se va a encontar con un reto donde se encuentre con la necesidad de explotar la vulnerabilidad concreta en un sistema informático, concretamente de software. Ahora bien, partiendo de cierta información del software, tras procesar la información, se necesita procesar la información de los CVEs, para encontrar la vulnerabilidad adecuada a la situáción.
 
-Problema: procesar la info de los cves
+
+## User-Journey
+
+Cliente: yo :)
+
+Soy un estudiante de Ingeniería Informática al cual le gusta participar en competiciones de Captura la Bandera (CTF), este tipo de competiciones trata de cxonseguir encontrar una bandera (un pequeño texto con cierto formato, no relevante para) que se encuentra oculto, cifrado o simplemente en un sistema al cual no tenemos permisos.
+
+### TL;DR
 
 En medio de un CTF, cuando se intenta de forma ágil resolver un problema planteado, solo que de este problema solo hay ciertas pistas y tienes que buscar una "flag". En el momento en el que se requiere de saber que posibles vulnerabilidades se puedan usar a nuestro favor. Es necesario un sistema que nos indique a partir de la información conocida del sistema que vulnerabilidad puede existir y como explotarla. Es un gran problema el tener que procesar de forma manual tanta información a la vez.
 
 Descripción de los elementos del problema:
-- **Retos CTF**: Consisten en buscar un texto con un formato, como por ejemplo ```flag{...}``` y pueden ser de distintos tipos o ámbitos como criptografía, ingeniería inversa, web y pwn, estos últimos son para los que necesitamos la aplicación pues son en los que hay que acceder a algún sistema aprovechando alguna vulnerabilidad en el código. Y por lo general te suelen  dejar alguna pista de cual es el sistema con una dirección ip y un puerto al cual tienes que acceder.
+- **Flag**: Consiste en una pequeña cadena de texto con cierto formato establecido, por ejemplo: ```flag{...}```.
+- **Retos CTF**: Consisten en buscar una flag y pueden ser de distintos tipos o ámbitos como criptografía, ingeniería inversa, web y pwn, estos últimos son para los que necesitamos la aplicación pues son en los que hay que acceder a algún sistema aprovechando alguna vulnerabilidad en el código. Y por lo general te suelen  dejar alguna pista de cual es el sistema con una dirección ip y un puerto al cual tienes que acceder.
+- **CVE**(Common Vulnerabilities and Exposures): Es la forma en la que hoy en día se exponen los fallos de seguridad que van descubriéndose a lo largo del tiempo con la intención de conocerlos para poder solucionarlos. Se trata de un estandar a nivel mundial para la difusión pública de los fallos de seguridad comunes que afectan a un gran número de personas.
+Suelen disponer de un código de referencia como por ejemplo ```CVE-2021-4034``` donde el dígito de en medio te indica el año de salida. Además de incluir información acerca del autor, una breve descripción y algunos enlaces de referencia, normalmente a github.com con código para demostraciones y como solucionarlo. El código se establece de forma única a cada vulnerabilidad y existen una serie de organizaciónes certificadas que se encargan de ello.
 
-- **CVE**(Common Vulnerabilities and Exposures): Es la forma en la que hoy en día se exponen los fallos de seguridad que van descubriéndose a lo largo del tiempo con la intención de conocerlos para poder solucionarlos.
-Suelen disponer de un código de referencia como por ejemplo ```CVE-2021-4034``` donde el dígito de en medio te indica el año de salida. Además de incluir información acerca del autor, una breve descripción y algunos enlaces de referencia, normalmente a github.com con código para demostraciones y como solucionarlo.
- 
+Datos relevantes del CVE:
+- Código de referencia: para identificarlo de forma global
+- Descripción de la vulnerabilidad
+- Enlaces: Puede tener una serie de enlaces de documentación que nos servirán para llegar hasta una implementación del software que explota o demuestra dicha vulnerabilidad.
 
 ## Milestones
 
 ### [MI0] Modelo del Problema
 :cat2: 
 
-A partir del problema planteado en las historias de usuario con este hito se intentará pasar el modelo del problema a código. Identificando cada elemento necesario para solventar el problema.
-PMV: Estructura de datos para almacenar los CVES de forma que sea accesible de forma rápida y luego se puedan realizar búsquedas de manera eficiente.
-Viable si el "product manager" acepta la estructura al cumplir los requisitos.
+A partir del problema planteado en la historia de usuario #1 con este hito se intentará pasar el modelo del problema a código. Identificando cada elemento necesario y definir la estructura de los datos que vamos a necesitar para solucionar el problema planteado.
+Viable si la estructura de datos representa todos los datos necesarios.
+
 
 ### [MI1] Extracción de la información de los CVEs
 :cat2: :cat2:
 
-El principal objetivo en esta etapa es poder conseguir todos los CVEs posibles, de múltiples ubicaciones, de manera actualizada para procesar toda esa información y extraer los datos necesarios para trabajar con ellos.
-PMV: Librería que sea capaz de recabar todos los datos de los CVEs actuales y antiguos.
-Viable si aprueba todos los tests y extraer la información de forma correcta.
+Necesitamos la capacidad de recopilar toda la información que se nos pide en la historia de usuario #1 y que se a información viable para procesarla y guadarla. Sería viable cuando podamos demostrarlo a traves de tests.
 
 
 ### [MI2] Búsqueda de los CVEs
 :cat2: :cat2: :cat2:
 
-El objetivo es conseguir un sistema de búsqueda de forma que se presente al usuario unos resultados ordenados en función de la probabilidad que tiene el CVE de funcionar a partir de las características aportadas.
-PMV: Sistema de búsqueda con interfaz que sea capaz de obtener la información requerida.
-Viable si aprueba todos los tests.
+Una interfaz para interacturar con el usuario y poder mostrar el resultado que se pide en la historia de usuario #1.
 
 
