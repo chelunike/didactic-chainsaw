@@ -37,19 +37,19 @@ Datos relevantes del CVE:
 ### [MI0] Modelo del Problema
 :cat2: 
 
-A partir del problema planteado en la historia de usuario #1 con este hito se intentará pasar el modelo del problema a código. Identificando cada elemento necesario y definir la estructura de los datos que vamos a necesitar para solucionar el problema planteado.
+A partir del problema planteado en la historia de usuario #2 con este hito se intentará pasar el modelo del problema a código. Identificando cada elemento necesario y definir la estructura de los datos que vamos a necesitar para solucionar el problema planteado.
 Viable si la estructura de datos representa todos los datos necesarios.
 
 
 ### [MI1] Extracción de la información de los CVEs
 :cat2: :cat2:
 
-Necesitamos la capacidad de recopilar toda la información que se nos pide en la historia de usuario #1 y que se a información viable para procesarla y guadarla. Sería viable cuando podamos demostrarlo a traves de tests.
+Necesitamos la capacidad de recopilar toda la información que se nos pide en la historia de usuario #2 y que se a información viable para procesarla y guadarla. Sería viable cuando podamos demostrarlo a traves de tests.
 
 
 ### [MI2] Búsqueda de los CVEs
 :cat2: :cat2: :cat2:
 
-Una interfaz para interacturar con el usuario y poder mostrar el resultado que se pide en la historia de usuario #1.
+Una interfaz para interacturar con el usuario y poder mostrar el resultado que se pide en la historia de usuario #2.
 
 
