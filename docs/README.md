@@ -40,7 +40,7 @@ Datos relevantes del CVE:
 :cat2: 
 
 A partir del problema planteado en la historia de usuario #2 con este hito se intentará pasar el modelo del problema a código. Identificando cada elemento necesario y definir la estructura de los datos que vamos a necesitar para solucionar el problema planteado.
-Viable si la estructura de datos representa todos los datos necesarios.
+Viable si la estructura de datos representa todos los datos necesarios. Y se han seguido las buenas prácticas.
 
 
 ### [MI1] Extracción de la información de los CVEs
