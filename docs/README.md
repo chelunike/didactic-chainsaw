@@ -46,7 +46,7 @@ Viable si la estructura de datos representa todos los datos necesarios.
 ### [MI1] Extracción de la información de los CVEs
 :cat2: :cat2:
 
-Necesitamos la capacidad de recopilar toda la información que se nos pide en la historia de usuario #2 y que se a información viable para procesarla y guadarla. Sería viable cuando podamos demostrarlo a traves de tests.
+Sistema con la capacidad de recopilar toda la información que se nos pide en la historia de usuario #2 y que sea información viable para procesarla y guadarla. Sería viable cuando podamos demostrarlo a traves de tests.
 
 
 ### [MI2] Búsqueda de los CVEs
