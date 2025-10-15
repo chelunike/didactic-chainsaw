@@ -11,6 +11,14 @@ Milestone: 0
 A la hora de particpiar en una competición de Captura la Bandera (CTF), se va a encontar con un reto donde se encuentre con la necesidad de explotar la vulnerabilidad concreta en un sistema informático, concretamente de software. Ahora bien, partiendo de cierta información del software, tras procesar la información, se necesita procesar la información de los CVEs, para encontrar la vulnerabilidad adecuada a la situáción.
 
 
+### [HU002] Estoy preparando un CTF
+
+Label: user-stories
+Milestone: 0
+
+Me gustan tanto los CTFs, que a veces creo los mios propios, asi que me gustaría poder plantear unos retos, en los que se puedan explotar varios fallos de seguridad sobre un mismo software. El problema está en conocer los posibles CVEs que pueda concatenar, para crear una serie de vulnearibilidades que le den paso al jugador.
+
+
 ## User-Journey
 
 Cliente: yo :)
