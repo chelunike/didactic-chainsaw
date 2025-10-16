@@ -3,7 +3,7 @@
 ## [MI0] Modelo del Problema
 :cat2: 
 
-A partir del problema planteado en la historia de usuario #2 con este hito se intentará pasar el modelo del problema a código. Identificando cada elemento necesario y definir las entidades de datos que vamos a necesitar.
+A partir del problema planteado en la historia de usuario #2 con este hito pasará del problema a código. Identificando cada elemento necesario y defininiendo las entidades de datos que vamos a necesitar.
 
 Viable según lo siguiente:
 - Es aprobado por el project manager.
@@ -14,7 +14,7 @@ Viable según lo siguiente:
 ## [MI1] Extracción de la información de los CVEs
 :cat2: :cat2:
 
-La capacidad de recopilar toda la información que se nos pide en la historia de usuario #2 y que sea información viable y adecuada para nuestras entidades. 
+El código funional con la capacidad de recopilar toda la información que se nos pide en la historia de usuario #2 y que sea información viable y adecuada para nuestras entidades. 
 
 Viable según lo siguiente:
 - Es aprobado por el project manager.
@@ -25,7 +25,7 @@ Viable según lo siguiente:
 ## [MI2] Búsqueda de los CVEs
 :cat2: :cat2: :cat2:
 
-Una interfaz para interacturar con el usuario y poder mostrar el resultado que se pide en la historia de usuario #2.
+Una interfaz para interacturar con el usuario y poder mostrar el resultado con la rapidez que se pide en la historia de usuario #2.
 
 Viable según lo siguiente:
 - Es aprobado por el project manager.
