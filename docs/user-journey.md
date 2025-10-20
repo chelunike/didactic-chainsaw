@@ -16,7 +16,7 @@ Descripción de los elementos del problema:
 - **CVE**(Common Vulnerabilities and Exposures): Es la forma en la que hoy en día se exponen los fallos de seguridad que van descubriéndose a lo lequipoargo del tiempo con la intención de conocerlos para poder solucionarlos. Se trata de un estandar a nivel mundial para la difusión pública de los fallos de seguridad comunes que afectan a un gran número de personas.
 Suelen disponer de un código de referencia como por ejemplo ```CVE-2021-4034``` donde el dígito de en medio te indica el año de salida. Además de incluir información acerca del autor, una breve descripción y algunos enlaces de referencia, normalmente a github.com con código para demostraciones y como solucionarlo. El código se establece de forma única a cada vulnerabilidad y existen una serie de organizaciónes certificadas que se encargan de ello.
 
-Unos CVE, son complementarios o se aplican al mismo reto, cuando se pueden aplicar al mismo sistema o versión
+Unos CVE, **son complementarios o compatibles**, cuando se pueden aplicar al mismo reto; es decir, cuando se pueden aplicar al mismo sistema o versión de software en especifico.
 
 Datos relevantes del CVE:
 - Código de referencia: para identificarlo de forma global
