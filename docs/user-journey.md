@@ -1,27 +1,26 @@
 # User-Journey
 
-Cliente: yo :)
+## Descripción de uso y su frecuencia
 
-Soy un estudiante de Ingeniería Informática al cual le gusta participar en competiciones de Captura la Bandera (CTF), este tipo de competiciones trata de cxonseguir encontrar una bandera (un pequeño texto con cierto formato, no relevante para) que se encuentra oculto, cifrado o simplemente en un sistema al cual no tenemos permisos. Lo que se requiere en una competición es rapidez a la hora de hallar la solución, por lo cual es necesario que se procese la información en un tiempo muy reducido.
+El usuario la usará una vez por reto. No se garantiza que pueda resolver el reto directamente con la herramienta.
+Y al cambiar de reto deberá ingresar los nuevos datos del reto y generar de nuevo el resultado con los CVEs.
+Los resultados los consultarán en cualquier momento, tantas veces como necesite.
 
-Pese a que existen muchas base de datos, es necesario procesar toda la información para resolver el reto de forma rápida y precisa.
+## Plataforma Y Dispositivo
 
-### TL;DR
+El usuario usará siempre un ordenador, no se garantiza que sea con acceso físico al ordenador. Puede ser que requiera acceso desde interfaz, terminal o requiera de acceso como servicio.
 
-En medio de un CTF, cuando se intenta de forma ágil resolver un problema planteado, solo que de este problema solo hay ciertas pistas y tienes que buscar una "flag". En el momento en el que se requiere de saber que posibles vulnerabilidades se puedan usar a nuestro favor. Es necesario un sistema que nos indique a partir de la información conocida del sistema que vulnerabilidad puede existir y como explotarla. Es un gran problema el tener que procesar de forma manual tanta información a la vez.
+## Contexto de uso
 
-Descripción de los elementos del problema:
-- **Flag**: Consiste en una pequeña cadena de texto con cierto formato establecido, por ejemplo: ```flag{...}```.
-- **Retos CTF**: Consisten en buscar una flag y pueden ser de distintos tipos o ámbitos como criptografía, ingeniería inversa, web y pwn, estos últimos son para los que necesitamos la aplicación pues son en los que hay que acceder a algún sistema aprovechando alguna vulnerabilidad en el código. Y por lo general te suelen  dejar alguna pista de cual es el sistema con una dirección ip y un puerto al cual tienes que acceder.
-- **CVE**(Common Vulnerabilities and Exposures): Es la forma en la que hoy en día se exponen los fallos de seguridad que van descubriéndose a lo lequipoargo del tiempo con la intención de conocerlos para poder solucionarlos. Se trata de un estandar a nivel mundial para la difusión pública de los fallos de seguridad comunes que afectan a un gran número de personas.
-Suelen disponer de un código de referencia como por ejemplo ```CVE-2021-4034``` donde el dígito de en medio te indica el año de salida. Además de incluir información acerca del autor, una breve descripción y algunos enlaces de referencia, normalmente a github.com con código para demostraciones y como solucionarlo. El código se establece de forma única a cada vulnerabilidad y existen una serie de organizaciónes certificadas que se encargan de ello.
+Se usará en una competición de CTFs, donde el usuario dispone de conocimientos avanzados de la tecnológia y tiene un tiempo marcado por la competición.
+Además de adaptandose a los diferentes retos.
 
-Unos CVE, **son complementarios o compatibles**, cuando se pueden aplicar al mismo reto; es decir, cuando se pueden aplicar al mismo sistema o versión de software en especifico.
+## Workflow del usuario
 
-Datos relevantes del CVE:
-- Código de referencia: para identificarlo de forma global
-- Descripción de la vulnerabilidad
-- Enlaces: Puede tener una serie de enlaces de documentación que nos servirán para llegar hasta una implementación del software que explota o demuestra dicha vulnerabilidad.
+1. Se encuentra un reto, que tras anlizarlo el mismo, intuye que se require de explotar una vulnerabilidad.
+2. Introduce los datos que conoce respecto al reto.
+3. Genera los posibles resultados
+4. Revisa y prueba los CVEs manualmente.
 
 
 
