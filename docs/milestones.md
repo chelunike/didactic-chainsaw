@@ -3,7 +3,7 @@
 ## [MI0] Modelo del Problema
 :cat2: 
 
-A partir del problema planteado en la [historia de usuario](docs/historias-usuario.md) #2 con este hito pasará del problema a código. Identificando cada elemento necesario y defininiendo las entidades de datos que vamos a necesitar, siguiendo la metodologías de la asignatura.
+Entidades que representen el domino del problema. Todo ello con un buen uso de la metodología de la asignatura. A partir del problema planteado en la [historia de usuario](docs/historias-usuario.md) #2.
 
 Viable según lo siguiente:
 - Es aprobado por el project manager.
@@ -13,11 +13,10 @@ Viable según lo siguiente:
 ## [MI1] Extracción de la información de los CVEs
 :cat2: :cat2:
 
-El código funional con la capacidad de recopilar toda la información que se nos pide en la [historia de usuario](docs/historias-usuario.md) #2  y que sea información viable y adecuada para nuestras entidades. 
-
+Lógica de negocio que implemente la búsqueda y extracción de CVEs, para resolver el problema planteado en la [historia de usuario](docs/historias-usuario.md) #2. 
 Viable según lo siguiente:
 - Es aprobado por el project manager.
-- Se han seguido las buenas prácticas.
+- Se han seguido las buenas prácticas y la metodología de desarrollo.
 - Cuando podamos demostrarlo a traves de tests.
 
 
