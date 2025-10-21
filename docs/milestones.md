@@ -6,17 +6,16 @@
 Entidades que representen el domino del problema. Todo ello con un buen uso de la metodología de la asignatura. A partir del problema planteado en la [historia de usuario](docs/historias-usuario.md) #2.
 
 Viable según lo siguiente:
-- Es aprobado por el project manager.
 - Se han seguido las buenas prácticas.
 
 
 ## [MI1] Extracción de la información de los CVEs
 :cat2: :cat2:
 
-Lógica de negocio que implemente la búsqueda y extracción de CVEs, para resolver el problema planteado en la [historia de usuario](docs/historias-usuario.md) #2. 
+Lógica de negocio para resolver el problema planteado en la [historia de usuario](docs/historias-usuario.md) #2 siguiendo una correcta metodología de desarollo.
+
 Viable según lo siguiente:
-- Es aprobado por el project manager.
 - Se han seguido las buenas prácticas y la metodología de desarrollo.
-- Cuando podamos demostrarlo a traves de tests.
+- Se ha desmostrado a traves de tests.
 
 
