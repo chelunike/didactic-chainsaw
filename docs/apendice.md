@@ -1,7 +1,5 @@
 # Apéndice
 
-En medio de un CTF, cuando se intenta de forma ágil resolver un problema planteado, solo que de este problema solo hay ciertas pistas y tienes que buscar una "flag". En el momento en el que se requiere de saber que posibles vulnerabilidades se puedan usar a nuestro favor. Es necesario un sistema que nos indique a partir de la información conocida del sistema que vulnerabilidad puede existir y como explotarla. Es un gran problema el tener que procesar de forma manual tanta información a la vez.
-
 Descripción de los elementos del problema:
 - **Flag**: Consiste en una pequeña cadena de texto con cierto formato establecido, por ejemplo: ```flag{...}```.
 - **Retos CTF**: Consisten en buscar una flag y pueden ser de distintos tipos o ámbitos como criptografía, ingeniería inversa, web y pwn, estos últimos son para los que necesitamos la aplicación pues son en los que hay que acceder a algún sistema aprovechando alguna vulnerabilidad en el código. Y por lo general te suelen  dejar alguna pista de cual es el sistema con una dirección ip y un puerto al cual tienes que acceder.
