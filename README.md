@@ -14,3 +14,11 @@ La idea principal para solucionar el problema es crear una plataforma web que of
 
 Toda la configuración se encuentra en el siguiente [enlace](/docs/git-config.png).
 
+# Documentación
+
+La documentación se puede encontrar en los siguientes enlaces: 
+
+- [Historias de Usuario](docs/historias-usuario.md)
+- [User Journey](docs/user-journey.md)
+- [Milestones](docs/milestones.md)
+- [Apéndice](docs/apendice.md)
