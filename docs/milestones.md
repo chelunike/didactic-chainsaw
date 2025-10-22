@@ -12,10 +12,10 @@ Viable según lo siguiente:
 ## [MI1] Extracción de la información de los CVEs
 :cat2: :cat2:
 
-Lógica de negocio ,en formato de código, para resolver el problema planteado en la [historia de usuario](docs/historias-usuario.md) #2 siguiendo una correcta metodología de desarollo.
+Lógica de negocio ,en formato de código, para resolver el problema planteado en la [historia de usuario](docs/historias-usuario.md) #2 siguiendo una correcta metodología de desarrollo.
 
 Viable según lo siguiente:
 - Se han seguido las buenas prácticas y la metodología de desarrollo.
-- Se ha desmostrado a traves de tests.
+- Se ha demostrado a través de tests.
 
 

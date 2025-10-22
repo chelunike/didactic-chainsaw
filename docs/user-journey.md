@@ -12,12 +12,12 @@ El usuario usará siempre un ordenador, no se garantiza que sea con acceso físi
 
 ## Contexto de uso
 
-Se usará en una competición de CTFs, donde el usuario dispone de conocimientos avanzados de la tecnológia y tiene un tiempo marcado por la competición.
-Además de adaptandose a los diferentes retos.
+Se usará en una competición de CTFs, donde el usuario dispone de conocimientos avanzados de la tecnología y tiene un tiempo marcado por la competición.
+Además de adaptándose a los diferentes retos.
 
 ## Workflow del usuario
 
-1. Se encuentra un reto, que tras anlizarlo el mismo, intuye que se require de explotar una vulnerabilidad.
+1. Se encuentra un reto, que tras analizarlo el mismo, intuye que se requiere de explotar una vulnerabilidad.
 2. Introduce los datos que conoce respecto al reto.
 3. Genera los posibles resultados
 4. Revisa y prueba los CVEs manualmente.
