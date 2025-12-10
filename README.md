@@ -18,6 +18,7 @@ Toda la configuración se encuentra en el siguiente [enlace](/docs/git-config.pn
 
 La documentación se puede encontrar en los siguientes enlaces: 
 
+- [Elección Gestores](docs/gestores.md)
 - [Historias de Usuario](docs/historias-usuario.md)
 - [User Journey](docs/user-journey.md)
 - [Milestones](docs/milestone.md)
