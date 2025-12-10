@@ -23,3 +23,19 @@ La documentación se puede encontrar en los siguientes enlaces:
 - [User Journey](docs/user-journey.md)
 - [Milestones](docs/milestone.md)
 - [Apéndice](docs/apendice.md)
+
+## Instrucciones instalación
+
+Es necesario tener instalado `Carton`, el cual puede ser instalado muy fácilmente a través de [CPAN](https://www.cpan.org/modules/INSTALL.html).
+
+Y luego solo se tendrá que usar `make` para el resto de tareas:
+
+```bash
+# Instalar dependencias
+make install
+
+# Comprobar la instalación
+make check
+```
+
+
