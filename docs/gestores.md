@@ -7,22 +7,23 @@ Tras revisar todos las posibles opciones de gestión de dependencias con Perl, e
 
 Nuestras prioridades de cara a la gestión de dependencias son las siguientes:
 - Resulte fácil de instalar y usar para el programador; es decir, que en pocos pasos pueda disponer de las dependencias.
-- La herramienta nos asegure una estabilidad al tener una versión con soporte a largo plazo. Que no sea una herramienta nueva en fase beta, ni una muy antigua que no tenga soporte para actualizaciones.
 - Aislamiento de los paquetes para evitar futuros errores 
 
 ### Opciones encontradas
-A continuación, revisamos varias opciones viables. Todas ellas son proyectos estables y con soporte actualmente.
+A continuación, revisamos varias opciones viables. Todas ellas son proyectos estables y con soporte actualmente, que pese a no ser una prioridad, ha llevado a descartar otras posibles opciones.
+
+Hay que tener en cuenta dos conceptos en Perl de cara a la gestión de las dependencias, en primer lugar vamos a ver dos herramientas cuyo objetivo es instalar las librerías necesarias:
 
 #### CPAN
-- Facilidad de instalación y uso puesto que viene con Perl
-- Instala las dependencias de manera global, sin aislarlas respecto al proyecto 
-- No gestiona lista de dependencias ni versiones, es una herramienta para instalar las dependencias
+- Facilidad de instalación y uso puesto que viene con Perl. No requiere de pasos extra para su instalación.
+- Instala las dependencias de manera global, sin aislarlas respecto al proyecto.
 
 #### CPANMINUS
 Como CPAN, sirve solo para instalar dependencias
-- Fácil de usar
-- Requiere de instalación manual
-- Realiza lo mismo que cpan, pero intentando que no requiera de configuración por parte del usuario.
+- Fácil de usar, puesto que requiere de menos opciones el comando, que CPAN.
+- Requiere de instalación manual, pero se puede hacer fácilmente a través de CPAN 
+
+Y en segundo lugar, vamos a ver que herramienta podemos usar para poder aislar la instalación de los paquetes a nuestro proyecto. Estás se sirven de las anteriores, por lo que la elección es entre las siguientes:
 
 #### Carton
 Se trata de un empaquetador (Bundler) y empaqueta todo a través de un fichero con formato `cpanfile` (No se refiere a una caja de cartón :)
@@ -38,14 +39,13 @@ Es un script que sirve para gestionar los paquetes y sus versiones. Su funcionam
 
 ### Conclusión
 
-Usamos -> Carton + cpanfile + Cpan
+Usamos -> **Carton** = cpanfile y Cpan
 Por facilidad de uso y comprensión. Y con ello podremos aislar las dependencias y facilitar el trabajo al programador.
 
 ## Gestor de tareas
 
 Respecto al gestor de tareas, tenemos unas prioridades parecidas.
 - Resulte fácil de instalar y usar para el programador; es decir, que en pocos pasos pueda lanzar las tareas.
-- Nos permitan el desarrollo de tests para futuros objetivos
 - Herramienta que se encuentre en desarrollo activo y no este obsoleta.
 
 ### Opciones Encontradas
@@ -63,12 +63,11 @@ A continuación, revisamos posibles opciones viables.
 
 #### Task
 - Tendríamos que instalar JS, para usarla, lo cual nos dificulta inicialmente en la instalación.
-- Es viable para gestionar las tareas de este proyecto
 - Y es un proyecto activo y estable.
 
 ### Conclusión
 
 Usamos -> Make
-Por estabilidad y dada que es una herramienta comúnmente usada en nuestro entorno, nos será más fácil de usar.
+Por estabilidad y dada que es una herramienta fácil de usar y requiere de muy pocos pasos para instalar y lanzar las tareas.
 
 
