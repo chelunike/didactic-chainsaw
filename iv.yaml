@@ -1,3 +1,6 @@
 lenguaje: perl
 entidad: lib/ctf.pm
 entidad: lib/cve.pm
+automatizar:
+  fichero: Makefile
+  orden: make
