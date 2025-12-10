@@ -6,7 +6,6 @@
 Tras revisar todos las posibles opciones de gestión de dependencias con Perl, en este lenguaje hay muchas formas de hacer las cosas. Y eso crea un monto de formas de gestionar las dependencias, en este caso tenemos que diferenciar entre empaquetadores, la propia herramienta que instala las dependencias y el formato con el que se empaquetan dichas dependencias.
 
 Nuestras prioridades de cara a la gestión de dependencias son las siguientes:
-- Que funcione para nuestro lenguaje Perl
 - Facilidad y practica respecto al uso e instalación para su despliegue.
 - Nos asegure una estabilidad en los paquetes y soporte
 - Aislamiento de los paquetes para evitar futuros errores 
