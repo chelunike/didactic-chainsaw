@@ -6,8 +6,8 @@
 Tras revisar todos las posibles opciones de gestión de dependencias con Perl, en este lenguaje hay muchas formas de hacer las cosas. Y eso crea un monto de formas de gestionar las dependencias, en este caso tenemos que diferenciar entre empaquetadores, la propia herramienta que instala las dependencias y el formato con el que se empaquetan dichas dependencias.
 
 Nuestras prioridades de cara a la gestión de dependencias son las siguientes:
-- Facilidad y practica respecto al uso e instalación para su despliegue.
-- Nos asegure una estabilidad en los paquetes y soporte
+- Resulte fácil de instalar y usar para el programador; es decir, que en pocos pasos pueda disponer de las dependencias.
+- La herramienta nos asegure una estabilidad al tener una versión con soporte a largo plazo. Que no sea una herramienta nueva en fase beta, ni una muy antigua que no tenga soporte para actualizaciones.
 - Aislamiento de los paquetes para evitar futuros errores 
 
 ### Opciones encontradas
@@ -44,9 +44,9 @@ Por facilidad de uso y comprensión. Y con ello podremos aislar las dependencias
 ## Gestor de tareas
 
 Respecto al gestor de tareas, tenemos unas prioridades parecidas.
-- Facilidad de uso e instalación
+- Resulte fácil de instalar y usar para el programador; es decir, que en pocos pasos pueda lanzar las tareas.
 - Nos permitan el desarrollo de tests para futuros objetivos
-- Herramienta estable y que no genere demasiada deuda técnica
+- Herramienta que se encuentre en desarrollo activo y no este obsoleta.
 
 ### Opciones Encontradas
 A continuación, revisamos posibles opciones viables.
