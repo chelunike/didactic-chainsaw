@@ -3,7 +3,7 @@
 
 ## Gestor de Dependencias
 
-Tras revisar todos las posibles opciones de gestión de dependencias con Perl, en este lenguaje hay muchas formas de hacer las cosas. Y eso crea un monto de formas de gestionar las dependencias, en este caso tenemos que diferenciar entre empaquetadores, la propia herramienta que instala las dependencias y el formato con el que se empaquetan dichas dependencias.
+Tras revisar todos las posibles opciones de gestión de dependencias con Perl, en este lenguaje hay muchas formas de hacer las cosas. Y eso crea un montón de formas de gestionar las dependencias, en este caso tenemos que diferenciar entre empaquetadores, la propia herramienta que instala las dependencias y el formato con el que se empaquetan dichas dependencias.
 
 Nuestras prioridades de cara a la gestión de dependencias son las siguientes:
 - Resulte fácil de instalar y usar para el programador; es decir, que en pocos pasos pueda disponer de las dependencias.
